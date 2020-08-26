@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing <AuthorByline/> should render a AuthorByline with author image , credit , read time and dates 1`] = `
+<ThemedComponent
+  _reactThemeProviderForwardedRef={null}
+  authors={
+    Array [
+      Object {
+        "author": "testAuthor",
+        "credit": "testCredit",
+        "photo": Object {
+          "url": "https://images.thestar.com/AnLvdb-sYG6huFX4lHTUE_vIpVg=/100x100/smart/https://www.thestar.com/content/dam/thestar/columnist_logos/Arthur_Bruce_logo2015.JPG",
+        },
+      },
+    ]
+  }
+  lastmodifiedepoch={1592916873861}
+  publisheddate="06 22 2020"
+  publishedepoch={1592867400000}
+  readTime="5"
+/>
+`;
+
+exports[`Testing <AuthorByline/> should render a AuthorByline without author credit , photo 1`] = `
+<ThemedComponent
+  _reactThemeProviderForwardedRef={null}
+  authors={
+    Array [
+      Object {
+        "author": "testAuthor",
+        "credit": null,
+        "photo": null,
+      },
+    ]
+  }
+  lastmodifiedepoch={1592916873861}
+  publisheddate="06 22 2020"
+  publishedepoch={1592867400000}
+  readTime="5"
+/>
+`;
+
+exports[`Testing <AuthorByline/> should render a AuthorByline without author image 1`] = `
+<ThemedComponent
+  _reactThemeProviderForwardedRef={null}
+  authors={
+    Array [
+      Object {
+        "author": "testAuthor",
+        "credit": "testCredit",
+        "photo": null,
+      },
+    ]
+  }
+  lastmodifiedepoch={1592916873861}
+  publisheddate="06 22 2020"
+  publishedepoch={1592867400000}
+  readTime="5"
+/>
+`;

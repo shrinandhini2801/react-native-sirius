@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing <Loader/> Loader should return an activity indicator with text 1`] = `
+<ThemedComponent
+  _reactThemeProviderForwardedRef={null}
+  loadingText="Test loading text"
+/>
+`;
+
+exports[`Testing <Loader/> Loader should return an activity indicator without text 1`] = `
+<ThemedComponent
+  _reactThemeProviderForwardedRef={null}
+/>
+`;

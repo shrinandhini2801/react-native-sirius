@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing <RoundImage/> RoundImage should render default image if the iamge url is null or empty  1`] = `
+<ThemedComponent
+  _reactThemeProviderForwardedRef={null}
+  url={null}
+/>
+`;
+
+exports[`Testing <RoundImage/> RoundImage should render properly  1`] = `
+<ThemedComponent
+  _reactThemeProviderForwardedRef={null}
+  url="https://picsum.photos/200/300"
+/>
+`;

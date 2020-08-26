@@ -1,0 +1,94 @@
+{
+  "files": [
+    {
+      "name": "../android/app/build.gradle",
+      "regex": "applicationId \"*.+\""
+    },
+    {
+      "name": "../android/app/src/main/AndroidManifest.xml",
+      "regex": "package=\"*.+\">"
+    },
+    {
+      "name": "../android/app/src/main/java/com/sirius/MainActivity.java",
+      "regex": "package *.+;",
+      "rename": true
+    },
+    {
+      "name": "../android/app/src/main/java/com/sirius/MainApplication.java",
+      "regex": "package com.*.+;",
+      "rename": true
+    },
+    {
+      "name": "../android/app/src/main/java/com/sirius/UtilityBridge.java",
+      "regex": "package *.+;",
+      "rename": true
+    },
+    {
+      "name": "../android/app/src/main/java/com/sirius/ParselyBridge.java",
+      "regex": "package *.+;",
+      "rename": true
+    },
+    {
+      "name": "../android/app/src/main/java/com/sirius/BridgePackage.java",
+      "regex": "package *.+;",
+      "rename": true
+    },
+    {
+      "name": "../android/app/src/main/java/com/sirius/BridgePackage.java",
+      "regex": "import *.+.WebViewManager;",
+      "rename": true
+    },
+    {
+      "name": "../android/app/src/main/java/com/sirius/WebViewManager.java",
+      "regex": "package *.+;",
+      "rename": true
+    },
+    {
+      "name": "../android/app/src/main/java/com/sirius/MainApplication.java",
+      "regex": "import *.+.BridgePackage;",
+      "rename": true
+    },
+    {
+      "name": "../android/app/src/main/java/com/sirius/MainApplication.java",
+      "regex": "import *.+.generated.BasePackageList;",
+      "rename": true
+    },
+    {
+      "name": "../android/app/src/main/java/com/sirius/MainActivity.java",
+      "regex": ".setApplicationName(\"*.+\")",
+      "mapping": "comscore",
+      "replace": "Analytics.getConfiguration().setApplicationName(\"*.+\");",
+      "rename": true
+    },
+    {
+      "name": "../android/app/src/main/java/com/sirius/MainActivity.java",
+      "regex": ".sharedInstance(\"*.+\", this)",
+      "mapping": "parsely",
+      "replace": "ParselyTracker.sharedInstance(\"*.+\", this);",
+      "rename": true
+    },
+    {
+      "name": "../android/app/src/main/java/com/sirius/MainActivity.java",
+      "regex": "siteName = \"*.+\"",
+      "mapping": "adobe",
+      "replace": "String siteName = \"*.+\";",
+      "rename": true
+    },
+    {
+      "name": "../android/fastlane/fastfile",
+      "regex": "file_name = '*.+-release.apk'"
+    },
+    {
+      "name": "../android/settings.gradle",
+      "regex": "rootProject.name = '*.+'"
+    },
+    {
+      "name": "../app.json",
+      "regex": "\"displayName\": \"*.+\","
+    },
+    {
+      "name": "../package.json",
+      "regex": "\"name\": \"*.+\","
+    }
+  ]
+}

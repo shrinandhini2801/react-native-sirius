@@ -1,0 +1,18 @@
+{
+    "files":[
+        {
+            "name":"../android/app/build.gradle",
+            "regex": ["versionName \"*.+\"", "versionCode [0-9]"]
+        },
+        {
+            "name":"../android/app/src/main/AndroidManifest.xml",
+            "regex": ["android:versionName=\"*.+\"", "android:versionCode=\"*.+\""]
+        },
+        {
+            "name":"../ios/Sirius/Info.plist",
+            "regex": ["<key>CFBundleVersion<\/key>\\s\\s<string>*.+<\/string>", "<key>CFBundleShortVersionString<\/key>\\s\\s<string>*.+<\/string>"]
+        }
+    ]
+}
+
+

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing <SArticle/> SArticle should render properly with given styles and title 1`] = `
+<ThemedComponent
+  _reactThemeProviderForwardedRef={null}
+  color="white"
+  lineHeight={18}
+  paddingBottom={20}
+  size={16}
+  title="Test Article"
+/>
+`;

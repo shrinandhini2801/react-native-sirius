@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing <Disclaimer/> should render a Disclaimer with description 1`] = `
+<ThemedComponent
+  _reactThemeProviderForwardedRef={null}
+  data={
+    Object {
+      "trustlabel": Object {
+        "description": "testDescription",
+        "name": "testName",
+      },
+    }
+  }
+/>
+`;

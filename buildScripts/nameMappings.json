@@ -1,0 +1,9 @@
+{
+  "comscore": "THESTAR",
+  "parsely": {
+    "prod": "thestar.com",
+    "dev": "stage.thestar.com"
+  },
+  "bundleID": "test",
+  "adobe": "thestar"
+}

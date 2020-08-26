@@ -1,0 +1,23 @@
+pipeline {
+  agent {
+      label 'MacMiniSlave'
+  }
+
+  environment {
+    CI = 'true' 
+  }
+
+  stages {
+    // stage('SonarQube') {
+    //   steps {
+    //     sh "rm -rf node_modules/ && npm install && sonar-scanner"
+    //   }
+    // }
+
+    stage('unittesting') {
+      steps {
+       sh "npm install && npm test && rm -rf node_modules/"
+      }
+    }
+  }
+}

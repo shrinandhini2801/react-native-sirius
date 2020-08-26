@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing <TrustLabel/> TrustLabel should NOT return anything if the name is null  1`] = `
+<ThemedComponent
+  _reactThemeProviderForwardedRef={null}
+  trustLabel={
+    Object {
+      "name": null,
+    }
+  }
+/>
+`;
+
+exports[`Testing <TrustLabel/> TrustLabel should render properly 1`] = `
+<ThemedComponent
+  _reactThemeProviderForwardedRef={null}
+  trustLabel={
+    Object {
+      "name": "Test Trust Label",
+    }
+  }
+/>
+`;

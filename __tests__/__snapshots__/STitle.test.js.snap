@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing <STitle/> STitle should render half width 1`] = `
+<ThemedComponent
+  _reactThemeProviderForwardedRef={null}
+  half={true}
+  lineHeight={29}
+  size={20}
+  style={
+    Object {
+      "color": "black",
+      "textAlign": "center",
+    }
+  }
+  title="Test Title"
+/>
+`;
+
+exports[`Testing <STitle/> STitle should render properly with given title 1`] = `
+<ThemedComponent
+  _reactThemeProviderForwardedRef={null}
+  lineHeight={29}
+  size={20}
+  style={
+    Object {
+      "color": "black",
+      "textAlign": "center",
+    }
+  }
+  title="Test Title"
+/>
+`;
+
+exports[`Testing <STitle/> STitle should render semi-half width 1`] = `
+<ThemedComponent
+  _reactThemeProviderForwardedRef={null}
+  lineHeight={29}
+  semiHalf={true}
+  size={20}
+  style={
+    Object {
+      "color": "black",
+      "textAlign": "center",
+    }
+  }
+  title="Test Title"
+/>
+`;

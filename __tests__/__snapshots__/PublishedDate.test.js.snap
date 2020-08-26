@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing <PublishedDate/> should render a PublishedDate with proper dates 1`] = `
+<Paragraph
+  style={
+    Array [
+      Object {
+        "fontFamily": "MerriweatherSans-Light",
+        "fontSize": 11,
+        "paddingBottom": 0,
+        "paddingTop": 0,
+        "width": "100%",
+      },
+      Object {},
+    ]
+  }
+>
+  4 DAYS AGO
+</Paragraph>
+`;

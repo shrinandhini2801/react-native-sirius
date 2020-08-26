@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing <RenderIABLink/> RenderIABLink should render properly 1`] = `
+<ThemedComponent
+  _reactThemeProviderForwardedRef={null}
+  data={
+    Object {
+      "testKey": "testVal",
+    }
+  }
+  title="Test Title"
+/>
+`;

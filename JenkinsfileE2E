@@ -1,0 +1,38 @@
+pipeline {
+  agent {
+      label 'MacMiniSlave'
+  }
+
+  environment {
+    CI = 'true'
+    EXPORT_AWS = 'npm run export-aws'
+  }
+  
+  parameters {
+    string(name: 'appId', defaultValue: 'whitelabel.dev', description: 'TorStar mobile app id (Ask NightKing)')
+  }
+
+  stages {
+    stage ('Download Source'){
+      steps {
+        sh "${EXPORT_AWS} && \
+        export APP_ID=${params.appId} && \
+        rm package-lock.json && \
+        npm install && \
+        export GET_VERSION=1 && \
+        export VERSION=\$(npm run get-latest-app) && \
+        export BUILD_NUM=\$(npm run get-latest-build-num) && \
+        npm run get-source"
+      }
+    }
+
+    stage('E2E Testing iOS') {
+      steps {
+        sh "cd GeneratedBuild && \
+        npm install && \
+        npm run ios && \
+        detox test -c ios.sim.debug"
+      }
+    }
+  }
+}

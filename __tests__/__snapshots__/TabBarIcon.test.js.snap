@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing <TabBarIcon/> TabBarIcon should return home FontAwesome icon  1`] = `
+<ThemedComponent
+  _reactThemeProviderForwardedRef={null}
+  homeIcon={true}
+/>
+`;
+
+exports[`Testing <TabBarIcon/> TabBarIcon should return settings Ionicons  1`] = `
+<ThemedComponent
+  _reactThemeProviderForwardedRef={null}
+  name="md-settings"
+/>
+`;

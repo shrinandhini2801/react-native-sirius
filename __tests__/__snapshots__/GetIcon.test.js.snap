@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing <GetIcon/> GetIcon should return black isFeather arrow down icon of size 20  1`] = `
+<ThemedComponent
+  _reactThemeProviderForwardedRef={null}
+  color="black"
+  isFeather={true}
+  name="arrow-down-left"
+  size={20}
+/>
+`;
+
+exports[`Testing <GetIcon/> GetIcon should return white Meterial close icon of size 45  1`] = `
+<ThemedComponent
+  _reactThemeProviderForwardedRef={null}
+  color="white"
+  isMaterial={true}
+  name="close"
+  size={45}
+/>
+`;

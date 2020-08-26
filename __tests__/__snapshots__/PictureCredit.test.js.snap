@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing <PictureCredit/> PictureCredit should render nothing if no credit text is passed or is null 1`] = `
+<ThemedComponent
+  _reactThemeProviderForwardedRef={null}
+  credit={null}
+/>
+`;
+
+exports[`Testing <PictureCredit/> PictureCredit should render properly with given Credit text 1`] = `
+<ThemedComponent
+  _reactThemeProviderForwardedRef={null}
+  credit="Test picture credit"
+/>
+`;

@@ -1,0 +1,8 @@
+{
+    "toronto.star": {
+        "android": "com.thestar.www",
+        "ios": "com.thestar.mobileapp",
+        "devTeam": "XCDF4U69VU",
+        "appName": "The Star"
+    }
+}

@@ -1,0 +1,45 @@
+default_platform(:android)
+
+platform :android do
+  desc "Deploy a new alpha version to the Google Play Store"
+  lane :alpha do
+    manifestPath = '../../AndroidManifest.xml'
+    manifest = File.read(manifestPath)
+
+    packageNameRegex = /package="(.+?)"/
+    packageNameString = manifest.match(packageNameRegex).to_s
+    packageName = packageNameString.split('"')[1].strip
+
+    versionNameRegex = /versionName="(.+?)"/
+    versionNameString = manifest.match(versionNameRegex).to_s
+    versionName = versionNameString.split('"')[1].strip
+
+    versionCodeRegex = /versionCode="(.+?)"/
+    versionCodeString = manifest.match(versionCodeRegex).to_s
+    versionCode = versionCodeString.split('"')[1].strip
+
+    appId = ENV["APP_ID"]
+    appBuildsPath = "https://s3.amazonaws.com/misc.thestar.com/mobile/whitelabel/builds/"
+    apkPath = "/android/app/build/outputs/apk/release/" + "app-release.apk"
+
+    supply(
+      track: "alpha",
+      apk: "../app-release.apk"
+    )
+
+    slack(
+      username: "White Label",
+      icon_url: "https://misc.thestar.com/app/AppBuildIcon-02.png",
+      message: “App successfully deployed to Google Play!“,
+      channel: “#white-label-deploys“,
+      default_payloads: [:git_branch],
+      payload: {
+        "App Id" => appId,
+        "Version" => versionName,
+        "Build Number" => versionCode,
+        "APK" => appBuildsPath + appId  + "/" + versionName + "/" + versionCode + apkPath,
+      },
+      slack_url: "https://hooks.slack.com/services/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"
+    )
+  end
+end

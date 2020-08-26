@@ -1,0 +1,61 @@
+pipeline {
+  agent {
+      label 'MacMiniSlave'
+  }
+
+  environment {
+    CI = 'true'
+    EXPORT_AWS = 'npm run export-aws'
+    EXPORT_APP_ID = "export APP_ID=${params.appId}"
+    EXPORT_BUILD_NUM ="export BUILD_NUM=\$(node buildScripts/getLatestBuildNumber.js)"
+    REPORT = "npm install slack && \
+              npm run report-deploy"
+  }
+
+  parameters {
+    string(name: 'appId', defaultValue: 'whitelabel.dev', description: 'TorStar mobile app id (Ask NightKing)')
+  }
+
+  stages {
+    stage ('Deploy Android'){
+      steps{
+        sh "chmod -R 777 buildScripts/ && \
+        ${EXPORT_AWS} && \
+        ${EXPORT_APP_ID} && \
+        export PLATFORM=android && \
+        npm install aws-sdk && \
+        npm run get-latest-app && \
+        npm run android-deploy"
+      }
+    }
+
+    stage ('Deploy iOS'){	
+       steps{	
+         sh "chmod -R 777 buildScripts/ && \
+         ls -la && \
+         ${EXPORT_AWS} && \
+         ${EXPORT_APP_ID} && \
+         export GET_VERSION=1 && \
+         export PLATFORM=ios && \
+         npm install aws-sdk && \
+         export VERSION=\$(node buildScripts/getLatestApp.js) && \
+         ${EXPORT_BUILD_NUM} && \
+         npm run get-build-ios && \
+         npm run deploy-ios-2fa ${params.appId} && \
+         export IS_PASSED=true && \
+         ${REPORT}"	
+       }
+    }
+  }
+
+  post {
+    failure { 
+      sh "${EXPORT_APP_ID} && \
+        export VERSION=${params.version} && \
+        ${EXPORT_BUILD_NUM} && \
+        export IS_PASSED=false && \
+        export PLATFORM=fixthis && \
+        ${REPORT}"
+    }
+  }
+}

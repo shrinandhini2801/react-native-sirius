@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "100202549584",
+    "firebase_url": "https://the-star-mobile-reactnative.firebaseio.com",
+    "project_id": "the-star-mobile-reactnative",
+    "storage_bucket": "the-star-mobile-reactnative.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100202549584:android:774d8a36ff645bf5",
+        "android_client_info": {
+          "package_name": "com.thestar.www"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "100202549584-2ffl5vtoflpu9f13c6cpqa0febivc7ji.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thestar.www",
+            "certificate_hash": "02c11a2e533c85222f7cb7f653cd556f5384ed9b"
+          }
+        },
+        {
+          "client_id": "100202549584-3qotk5017jo31peis9ju6iusndjnlja4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thestar.www",
+            "certificate_hash": "371c24e24104564e5b33404e42477cb92161f5ca"
+          }
+        },
+        {
+          "client_id": "100202549584-4rvg90dh304c46r1q1jqb6ittp8eqkpn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApyQEaAbmhoBYCL5o9W4Wr1uqR9pBMAbI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "100202549584-mtucvt47k43qcbghn597tamo1u8r7nuh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "100202549584-9ob9ka6l8nv3o708moo2rniqp1f5jmqb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.thestar.mobileapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,135 @@
+ForLocal.md
+
+# Jest
+#
+.jest/
+
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+#unittesting
+coverage/
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+!debug.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
+
+# Bundle artifact
+*.jsbundle
+
+# CocoaPods
+/ios/Pods/
+.env
+app.json
+build.config.json
+android/gradle.properties
+android/app/google-services.json
+android/app/google-services.json.old
+android/app/src/main/res/playstore-icon.png
+android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png
+android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png
+android/app/src/main/res/mipmap-hdpi/ic_launcher.png
+android/app/src/main/res/mipmap-ldpi/ic_launcher.png
+android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png
+android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png
+android/app/src/main/res/mipmap-mdpi/ic_launcher.png
+android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png
+android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png
+android/app/src/main/res/mipmap-xhdpi/ic_launcher.png
+android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png
+android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png
+android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png
+android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png
+android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png
+android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
+android/app/src/main/res/values/ic_launcher_background.xml
+android/app/src/main/res/values/strings.xml
+android/keys/TheHamiltonSpectator.jks
+ios/GoogleService-Info.plist
+ios/GoogleService-Info.plist_old
+ios/Podfile.lock
+ios/Sirius/ExportOptions.plist
+ios/Sirius/Images.xcassets/AppIcon.appiconset/Contents.json
+ios/Sirius/Images.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png
+ios/Sirius/Images.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png
+ios/Sirius/Images.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png
+ios/Sirius/Images.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png
+ios/Sirius/Images.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png
+ios/Sirius/Images.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png
+ios/Sirius/Images.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png
+ios/Sirius/Images.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png
+ios/Sirius/Images.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png
+ios/Sirius/Images.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png
+ios/Sirius/Images.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png
+ios/Sirius/Images.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png
+ios/Sirius/Images.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png
+ios/Sirius/Images.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png
+ios/Sirius/Images.xcassets/splashicon.imageset/icon.png
+ios/Sirius/Images.xcassets/splashicon.imageset/icon@2x.png
+ios/Sirius/Images.xcassets/splashicon.imageset/icon@3x.png
+ios/Sirius.xcodeproj/project.pbxproj
+ios/fastlane/Appfile
+react/configs/apis.config.json
+react/images/bars.png
+react/images/chevron.png
+react/images/image_home.png
+react/images/logo.png
+react/images/search.png
+react/strings/en.json
+src/configs/apis.config.json
+src/images/bars.png
+src/images/chevron.png
+src/images/image_home.png
+src/images/logo.png
+src/images/search.png
+ios/fastlane/Appfile
+app.json

@@ -1,0 +1,66 @@
+{
+  "files": [
+    {
+      "name": "../ios/Sirius/ExportOptions.plist",
+      "regex": "<key>replace.appId</key>"
+    },
+    {
+      "name": "../ios/Sirius.xcodeproj/project.pbxproj",
+      "regex": "PROVISIONING_PROFILE_SPECIFIER = *.+;"
+    },
+    {
+      "name": "../ios/Sirius.xcodeproj/project.pbxproj",
+      "regex": "PRODUCT_BUNDLE_IDENTIFIER = *.+;"
+    },
+    {
+      "name": "../ios/Sirius.xcodeproj/project.pbxproj",
+      "regex": "DEVELOPMENT_TEAM = *.+;",
+      "teamId": true
+    },
+    {
+      "name": "../ios/Sirius/ExportOptions.plist",
+      "regex": "<string>replace.this</string>"
+    },
+    {
+      "name": "../ios/Sirius/Info.plist",
+      "regex": "<string>replace.this</string>",
+      "useAppName": true
+    },
+    {
+      "name": "../app.json",
+      "regex": "\"displayName\": \"*.+\","
+    },
+    {
+      "name": "../package.json",
+      "regex": "\"name\": \"*.+\","
+    },
+    {
+      "name": "../ios/Sirius/AppDelegate.m",
+      "regex": "applicationName = @\"*.+\";",
+      "mapping": "comscore",
+      "replace": "[SCORAnalytics configuration].applicationName = @\"*.+\";"
+    },
+    {
+      "name": "../ios/Sirius/AppDelegate.m",
+      "regex": "sharedInstanceWithApiKey:@\"*.+\"];",
+      "mapping": "parsely",
+      "replace": "[ParselyTracker sharedInstanceWithApiKey:@\"*.+\"];"
+    },
+    {
+      "name": "../ios/Sirius/AppDelegate.m",
+      "regex": "siteName = @\"*.+\"",
+      "mapping": "adobe",
+      "replace": "NSString *siteName = @\"*.+\";"
+    },
+    {
+      "name": "../ios/Sirius.xcodeproj/project.pbxproj",
+      "regex": "DEVELOPMENT_TEAM = *.+;",
+      "teamId": true
+    },
+    {
+      "name": "../ios/Sirius/ExportOptions.plist",
+      "regex": "<string>replace.team</string>",
+      "teamId": true
+    }
+  ]
+}

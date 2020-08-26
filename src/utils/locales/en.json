@@ -1,0 +1,195 @@
+{
+  "app": {
+    "title": "Sirius"
+  },
+  "bottomNav": {
+    "news": "News",
+    "interests": "Interests",
+    "search": "Search",
+    "location": "Location",
+    "settings": "Settings",
+    "sections": "All Sections",
+    "preferences": "Settings"
+  },
+  "registration_headers": {
+    "sign_in": "SIGN IN",
+    "profile": "PROFILE",
+    "change_password": "CHANGE PASSWORD",
+    "forgot_password": "FORGOT PASSWORD",
+    "create_account": "CREATE ACCOUNT"
+  },
+  "settings": {
+    "title": "SETTINGS",
+    "sign_in": "Sign In",
+    "sign_out": "Sign Out",
+    "profile": "Profile",
+    "notification": "Notifications",
+    "text_size": "Text Size",
+    "feedback": "FEEDBACK",
+    "preferences_title": "SETTINGS",
+    "sections_title": "ALL SECTIONS",
+    "review_app": "Review App",
+    "provide_feedback": "Provide App Feedback",
+    "report_news_error": "Report a News Error",
+    "report_news_url": "http://notices.torstar.com/main_terms_of_use_daily_and_community_brands_EN/",
+    "legal": "LEGAL",
+    "privacy_policy": "Privacy Policy",
+    "privacy_url": "http://notices.torstar.com/privacy-policy/index.html",
+    "privacy_spam_notice": "Privacy & Anti-Spam Notice",
+    "privacy_spam_url": "https://www.thestar.com/about/mobile-app-privacy-anti-spam-notice.html",
+    "terms": "Terms of Use",
+    "terms_url": "http://notices.torstar.com/main_terms_of_use_daily_and_community_brands_EN/",
+    "ad_terms": "Advertising Terms",
+    "ad_terms_url": "https://www.thestar.com/about/termsandconditions.html",
+    "dark_mode": "Dark Mode",
+    "dark_theme": "Dark Theme",
+    "copyright": "Toronto Star Newspapers Limited. All rights reserved",
+    "get_newsletter": "Get our Email Newsletters",
+    "newsletter_url": "https://www.thestar.com/emails.html?nsrc=app-settings",
+    "newsletter_url_settings": "https://www.thestar.com/emails.html?nsrc=app-settings",
+    "fontA": "A",
+    "app_version": "App Version",
+    "build_number": "Build Number",
+    "environment": "Environment"
+  },
+  "sign_in": {
+    "title": "SIGN IN",
+    "cta": "Sign in with your TorStar account",
+    "signin": "Sign In",
+    "forgot_password": "Forgot your password?",
+    "or": "OR",
+    "agreement": "By creating an account or signing in, you are agreeing to our",
+    "tou": "Terms of Use",
+    "and": "and",
+    "privacy_policy": "Privacy Policy",
+    "dont_have_an_account": "Don't have an account?",
+    "create_one": "Create one",
+    "create_account": "Create Account"
+  },
+  "create_account": {
+    "subtitle": "To create an account, please fill in the information below",
+    "disclaimer": " We use the information you provide to better tailor the communications, offers and materials we deliver. By creating an account or signing in, you are agreeing to our",
+    "tou": "Terms of Use",
+    "and": "and",
+    "privacy": "Privacy Policy",
+    "success": "Thanks for registering, please check your email for a verification message."
+  },
+  "input_fields": {
+    "field_names": {
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "email": "Email Address",
+      "postal_code": "Postal Code",
+      "password": "Password",
+      "create_password": "Create Password",
+      "confirm_password": "Confirm Password",
+      "current_password": "Current Password",
+      "new_password": "New Password"
+    },
+    "validations": {
+      "names": "Name must be at least 2 characters long",
+      "email_address": "Invalid email format",
+      "postal_code": "Invalid Postal Code",
+      "password": "Password must be at least 8 characters long",
+      "confirm_password": "Passwords must match",
+      "duplicate_email": "The email address you used is already registered with a TorStar account",
+      "must_match": "Passwords do not match. Please try again.",
+      "invalid_input": "Current password is invalid. Please try again."
+    }
+  },
+  "change_password": {
+    "criteria": "Your password must be a minimum of 8 characters long.",
+    "current_password": "Current Password",
+    "new_password": "New Password",
+    "confirm_password": "Confirm Password",
+    "confirm_password_criteria": "Passwords do not match. Please try again.",
+    "button_label": "Update Password",
+    "success_message": "Password Updated",
+    "invalid_input": "Password Invalid"
+  },
+  "forgot_password": {
+    "title": "Please enter an email address associated with your account. We'll send you a link to reset your password.",
+    "error": "Sorry, that email address does not have an account. Please try again.",
+    "success": "Thank you. We will send an email with instructions to reset your password. If you do not receive an email, please check your junk folder and resend another by clicking below.",
+    "help": "Need Help?",
+    "contact": "Contact Us",
+    "reset": "Reset Password",
+    "success_button_label": "Go Back to Sign In"
+  },
+  "update_profile": {
+    "save": "Save",
+    "personal_information": "Personal Information",
+    "change_password": "Change Password",
+    "linked_accounts": "Linked Accounts",
+    "subscriptions": "Subscriptions",
+    "profile_updated": "Profile Updated"
+  },
+  "cta": {
+    "signup": "Sign Up",
+    "emailTitle": "Get more of The Star \n in your inbox",
+    "emailDescription": "Never miss the latest news from \n The Star with our email newsletters",
+    "emailTitleTab": "Get more of The Star in your inbox",
+    "emailDescriptionTab": "Never miss the latest news from The Star with our email newsletters",
+    "mail_to": "mailto:circulation@thestar.com?subject=The Star App: Need Help"
+  },
+  "feedback": {
+    "subject": "The Star App: Feedback for Alpha",
+    "email": "mobile-feedback@thestar.ca",
+    "sysinfo": "\n\n-- System Info --",
+    "device_model": "Device Model: ",
+    "app_version": "App Version: ",
+    "os": "Current OS: ",
+    "language_code": "Language Code: ",
+    "network": "Current Network: ",
+    "time": "Current Time: "
+  },
+  "reportNewsError": {
+    "subject": "The Star App: Report a news error",
+    "email": "publiced@thestar.ca"
+  },
+  "authorByLine": {
+    "by": "By",
+    "readTime": " min. read"
+  },
+  "dateFormat": "iiii, MMM. d, yyyy",
+  "shortDate": "MMMM dd, yyyy",
+  "articleDate": "EEEE, MMMM dd, yyyy",
+  "ad": "ADVERTISEMENT",
+  "articleContinues": "ARTICLE CONTINUES BELOW",
+  "poll": {
+    "title": "Tap here to have your say"
+  },
+  "ustream": {
+    "title": "Tap here to watch the video"
+  },
+  "email_verification": {
+    "pending": "Email Verification Pending",
+    "resend": "Resend Email",
+    "success": "Email sent. Please check your inbox for a verification code."
+  },
+  "scribd": {
+    "title": "Tap here to view this document"
+  },
+  "back": "Back",
+  "slider_dummy": "Among the many tangible tools in a journalist's kit, few are more useful than a pencil. ",
+  "forceUpgrade": {
+    "closeButton": "Close App",
+    "updateButton": "Update now",
+    "message": "Please update to the latest app version."
+  },
+  "loaders": {
+    "no_connection": "No Internet Connection"
+  },
+  "wall": {
+    "already_sub": "Already a current subscriber? ",
+    "signin": "Sign in",
+    "get_access": "Get Access Now",
+    "soft_wall_title": "Support \nAward-Winning, \nLocal Journalism",
+    "this_article": "THIS ARTICLE IS",
+    "exclusive_title": "Exclusive to Star \nSubscribers"
+  },
+  "meter": {
+    "subscribe_title": "Subscribe to The Star",
+    "limit_reached": "Article Limit Reached"
+  }
+}

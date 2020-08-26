@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing <SectionLabel/> SectionLabel should render properly with given title 1`] = `
+<ThemedComponent
+  _reactThemeProviderForwardedRef={null}
+  label="Test Label"
+/>
+`;

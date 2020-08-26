@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>100202549584-9ob9ka6l8nv3o708moo2rniqp1f5jmqb.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.100202549584-9ob9ka6l8nv3o708moo2rniqp1f5jmqb</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>100202549584-2ffl5vtoflpu9f13c6cpqa0febivc7ji.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAgcWUzbYoZ0dO6PWadclfTSQaV9Dsxs60</string>
+	<key>GCM_SENDER_ID</key>
+	<string>100202549584</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.thestar.mobileapp</string>
+	<key>PROJECT_ID</key>
+	<string>the-star-mobile-reactnative</string>
+	<key>STORAGE_BUCKET</key>
+	<string>the-star-mobile-reactnative.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:100202549584:ios:6231d3370c2f5e7e</string>
+	<key>DATABASE_URL</key>
+	<string>https://the-star-mobile-reactnative.firebaseio.com</string>
+</dict>
+</plist>

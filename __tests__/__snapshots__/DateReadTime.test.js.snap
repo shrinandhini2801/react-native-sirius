@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing <DateReadTime/> should render a DateReadTime with date and readtime  1`] = `
+<ThemedComponent
+  _reactThemeProviderForwardedRef={null}
+  formattedDate="Monday, June 22, 2020"
+  oldArticleWarning={false}
+  readTime="5"
+/>
+`;
